@@ -1,0 +1,23 @@
+{
+  "name": "root-insurance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1",
+    "sinon": "^4.4.2",
+    "standard": "^11.0.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
